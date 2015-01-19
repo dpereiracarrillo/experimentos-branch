@@ -9,7 +9,7 @@ public class Boletin2Ejercicio6 {
    
     public static void main(String[] args) {
         float precio,pagado,total;
-        
+        //Aqui haré mis experimentos
         System.out.println("Prezo Orixinal:");
         Scanner dato=new Scanner(System.in);
         precio=dato.nextFloat();
