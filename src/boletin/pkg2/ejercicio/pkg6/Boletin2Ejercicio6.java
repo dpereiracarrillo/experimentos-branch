@@ -10,13 +10,13 @@ public class Boletin2Ejercicio6 {
     public static void main(String[] args) {
         float precio,pagado,total;
         
-        System.out.println("Precio Original:");
+        System.out.println("Precio Orixinal:");
         Scanner dato=new Scanner(System.in);
         precio=dato.nextFloat();
         System.out.println("Pagado:");
         pagado=dato.nextFloat();
         total=((precio-pagado)/precio)*100;
-        System.out.println("Descuento= "+total+" %");
+        System.out.println("Desconto= "+total+" %");
     }
     
 }
